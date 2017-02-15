@@ -1,0 +1,81 @@
+* {
+    box-shadow: none;
+}
+html, body {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        font-family: Helvetica, sans-serif;
+        background: url(http://nevseoboi.com.ua/uploads/posts/2010-06/1277736940_buster-11.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input,textarea {
+    outline:none;
+}
+
+textarea {
+    overflow: hidden;
+    border-radius: 25px;
+    padding: 14px 0px;
+    background-color: white;
+    color: #777;
+    text-align: center;
+    width: 300px;
+    border: none;
+    
+}
+h1 {
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+.wrapper {
+    margin: auto;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#last {
+    width: 300px;
+    text-align: center;
+    padding: 14px 0px;
+    border-radius: 25px;
+    background-color: white;
+    color: #777;
+    border: none;
+}
+#btn {
+    padding: 14px 0px;
+    width: 300px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: #E72033;
+    font-weight: bolder;
+    border: none;
+    color: white;
+
+    
+    
+}
+#result {
+    color: white;
+    font-weight: bolder;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
